@@ -11,7 +11,7 @@ import { LoginRes, UserRes } from './loginForm.model';
 
 export class LoginFormsComponent {
 
-    loginError:string=''
+    loginError:string='test'
 
     constructor(private loginService: LoginFormService,
         private router:Router) {}
